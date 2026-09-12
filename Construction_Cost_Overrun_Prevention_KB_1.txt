@@ -1,0 +1,172 @@
+CONSTRUCTION PROJECT COST OVERRUN PREVENTION & BUDGET RISK FRAMEWORK
+
+1. COST OVERRUN ROOT CAUSES & EARLY INDICATORS
+Scope Creep (accounts for 35-40% of overruns)
+- Early indicator: Client change requests in weeks 1-4 (before 20% of work complete)
+- Red flag: >5 approved changes in Phase 1 = 60% likelihood of >10% overrun
+- Mitigation: Freeze scope after kickoff; require formal change control + impact assessment
+- Historical data: Uncontrolled scope creep costs avg €50K-€150K per project
+
+Schedule Delays (30-35% of overruns)
+- Early indicator: Critical path activities slipping >2 weeks by month 3
+- Red flag: Resource bottlenecks (same people on 4+ concurrent tasks)
+- Mitigation: Resource leveling; hire temp labor; accelerate non-critical tasks
+- Historical data: 1-week delay typically costs €8K-€15K in labor + equipment idle time
+
+Material & Labor Cost Inflation (15-20% of overruns)
+- Early indicator: Supplier quotes increase >10% after contract sign; labor market tightens
+- Red flag: Project longer than 18 months (inflation exposure grows exponentially)
+- Mitigation: Lock in long-lead material prices upfront; negotiate labor rates with contingency
+- Historical data: Avg 3-5% annual inflation; projects >18 months see 8-12% cumulative exposure
+
+Rework & Quality Issues (10-15% of overruns)
+- Early indicator: Defect rate >3% in first inspection cycle; repeated rework on same task
+- Red flag: Inadequate QC checks; concurrent work (dependencies not sequenced correctly)
+- Mitigation: Strengthen QC inspections; implement daily sign-offs; sequence dependencies
+- Historical data: Rework costs 1.5-3x original task cost
+
+Design Complexity & Unknowns (5-10% of overruns)
+- Early indicator: Design changes after construction starts; site conditions differ from assumptions
+- Red flag: Complex engineering (multiple systems interactions); tight deadlines conflicting with design complexity
+- Mitigation: Conduct thorough site surveys; freeze design before construction; phased delivery
+- Historical data: Design surprises = avg €20K-€80K per occurrence
+
+2. BUDGET RISK ASSESSMENT MATRIX (by project stage)
+
+STAGE 0: PLANNING & ESTIMATION (Before contract)
+- Risk level: MEDIUM-HIGH (estimates often ±20% inaccurate)
+- Key factors: Historical project similarity, estimate contingency (typically 10-15% recommended)
+- Green flag: 3+ comparable historical projects; 15% contingency budgeted
+- Red flag: First-of-kind project; <10% contingency; compressed timeline
+- Recommendation: If first-of-kind, recommend 20%+ contingency OR phased delivery with go/no-go gates
+
+STAGE 1: KICKOFF TO 20% COMPLETE (Weeks 1-6 typical)
+- Risk level: HIGH (scope and schedule baseline still fluid; changes most impactful)
+- Early warning signs: >3 change requests already logged; resource gaps identified; supplier delays
+- Cost overrun probability: If 2+ red flags present = 70%+ chance of >5% overrun
+- Mitigation actions: Enforce scope freeze; confirm all material orders placed; resource plan locked
+
+STAGE 2: 20-60% COMPLETE (Mid-project, weeks 7-16 typical)
+- Risk level: MEDIUM (majority of cost committed; course corrections still viable)
+- Early warning signs: Schedule slip >1 week; rework >2%; cost variance >3% vs budget
+- Cost overrun probability: If 1+ red flags present = 50%+ chance of >5% overrun
+- Mitigation actions: Accelerate non-critical tasks; reallocate resources to critical path; expedite materials
+
+STAGE 3: 60-90% COMPLETE (Late phase, weeks 17-24 typical)
+- Risk level: MEDIUM-LOW (cost mostly sunk; schedule risk now primary)
+- Early warning signs: Punchlist growing (>50 items); schedule still slipping; quality holds
+- Cost overrun probability: If schedule slip >1 week = 40%+ chance of additional labor cost overrun
+- Mitigation actions: Increase QC efficiency; parallel punchlist resolution; double-shift critical tasks
+
+STAGE 4: 90-100% COMPLETE (Final phase, week 25+)
+- Risk level: LOW (cost mostly determined; overruns now labor-intensive to fix)
+- Early warning signs: Punchlist >100 items; client not accepting partial handover; defects found
+- Cost overrun probability: >5 weeks delay from planned completion = 60%+ chance of 5-10% overrun
+- Mitigation actions: Dedicated punchlist team; daily inspections; client acceptance gates
+
+3. COST OVERRUN EARLY WARNING SCORING (Predictive Model)
+Calculate overrun risk using this formula (each factor scored 0-10; weights scaled so the total ranges 0-100):
+
+OVERRUN RISK SCORE = (Scope_Creep_Factor × 3.5) + (Schedule_Slip_Factor × 3.0) + (Labor_Inflation_Factor × 1.5) + (Rework_Factor × 1.5) + (Design_Complexity_Factor × 0.5)
+
+(Coefficients sum to 10, so max possible score = 100 when every factor = 10. Show your arithmetic step by step when calculating; do not state a total without showing each term.)
+
+Each factor scored 0 (low risk) to 10 (high risk):
+
+Scope_Creep_Factor:
+  0-2: <2 changes, all minor (add 0 points)
+  3-5: 3-5 changes OR 1 major change (add 3-5 points)
+  6-8: >5 changes OR 2+ major changes in Phase 1 (add 6-8 points)
+  9-10: Uncontrolled changes; client still defining scope (add 9-10 points)
+
+Schedule_Slip_Factor:
+  0-2: On schedule; all tasks tracking to baseline (add 0 points)
+  3-5: 1 critical task slipped 1-2 weeks (add 3-5 points)
+  6-8: Multiple tasks slipped; critical path impacted; >1 week delay (add 6-8 points)
+  9-10: Schedule baseline unrealistic; cascading delays predicted (add 9-10 points)
+
+Labor_Inflation_Factor:
+  0-2: Project <6 months; locked labor rates (add 0 points)
+  3-5: Project 6-12 months; inflation risk moderate; wage pressure emerging (add 3-5 points)
+  6-8: Project 12-18 months; inflation 5-8% expected; labor market tight (add 6-8 points)
+  9-10: Project >18 months; inflation >8%; chronic labor shortage (add 9-10 points)
+
+Rework_Factor:
+  0-2: Defect rate <1%; first-pass quality high (add 0 points)
+  3-5: Defect rate 1-3%; minor rework on 2-3 items (add 3-5 points)
+  6-8: Defect rate 3-5%; repeated rework on same task (add 6-8 points)
+  9-10: Defect rate >5%; systemic quality issues; extensive rework predicted (add 9-10 points)
+
+Design_Complexity_Factor:
+  0-2: Straightforward design; 1 discipline; low novelty (add 0 points)
+  3-5: Moderate complexity; 2-3 disciplines; some custom work (add 3-5 points)
+  6-8: High complexity; 4+ disciplines; significant engineering (add 6-8 points)
+  9-10: Extreme complexity; novel/first-of-kind; system integrations critical (add 9-10 points)
+
+TOTAL RISK SCORE INTERPRETATION (0-100 scale):
+  0-21: LOW RISK (<5% overrun probability). Continue as-is.
+  22-50: MEDIUM RISK (5-15% overrun probability). Implement targeted mitigations.
+  51-72: HIGH RISK (15-30% overrun probability). Escalate to PM/stakeholders; activate contingency.
+  73-100: CRITICAL RISK (>30% overrun probability). Full replan required; consider project pause/restructure.
+
+4. COST OVERRUN MITIGATION PLAYBOOK
+
+For SCOPE CREEP scenarios:
+- Action 1: Implement formal change control (all changes require impact assessment + approval)
+- Action 2: Establish change budget reserve (typically 5% of project cost)
+- Action 3: Weekly scope audit; flag any undocumented work
+- Expected impact: Reduces uncontrolled scope by 70-80%
+
+For SCHEDULE DELAYS:
+- Action 1: Identify critical path; allocate buffer (contingency time on long-lead items)
+- Action 2: Resource leveling (no person overallocated >80%)
+- Action 3: Expedite procurement; confirm supplier dates locked
+- Expected impact: Recovers 50-70% of slipped schedule
+
+For LABOR/MATERIAL INFLATION:
+- Action 1: Lock in material prices upfront for long-lead items (steel, concrete, systems)
+- Action 2: Negotiate labor rates with escalation caps (e.g., max 3% annual increase)
+- Action 3: Forward-buy high-risk commodities in months 1-3
+- Expected impact: Reduces inflation exposure from 8-12% to 3-5%
+
+For REWORK & QUALITY:
+- Action 1: Daily quality inspections; sign-off on completed work sections
+- Action 2: Root-cause analysis for any defects >minor (implement corrective action plan)
+- Action 3: Staged handovers (don't wait for 100% to start client acceptance)
+- Expected impact: Reduces rework from 10-15% to 2-3% of project cost
+
+For DESIGN COMPLEXITY:
+- Action 1: Complete design freeze before 20% construction progress
+- Action 2: Systems integration review (all discipline interfaces documented)
+- Action 3: Site survey validation (confirm design assumptions match reality)
+- Expected impact: Prevents design-driven rework; reduces surprises
+
+5. REAL PROJECT SCENARIOS (for agent testing)
+
+SCENARIO A: Mid-size commercial build (€2M budget, 18-week timeline)
+- Status: Week 6, 10% complete
+- Facts: 4 scope changes (client requested additional floors + systems upgrades); 1 critical resource unavailable (project manager on medical leave); supplier quotes 8% higher than estimate
+- Questions: What's the overrun risk? What should we do now?
+- Agent response should: Calculate risk score (Scope=6×3.5=21, Schedule=4×3.0=12, Labor_Inflation=6×1.5=9, Rework=1×1.5=1.5, Design=3×0.5=1.5; total=45 = MEDIUM-HIGH end of MEDIUM RISK band, 5-15% overrun probability, trending toward HIGH); recommend scope freeze + change control, backfill PM, lock material prices; escalate to stakeholders given multiple Stage 1 red flags present simultaneously
+
+SCENARIO B: Infrastructure project (€8M budget, 24-month timeline)
+- Status: Week 12, 8% complete
+- Facts: 2 minor scope changes; all tasks on schedule; labor market tightening (15% wage increase expected); site survey revealed underground utilities not on original drawings
+- Questions: Are we exposed to cost overrun? What are the biggest risks?
+- Agent response should: Risk score (Scope=2×3.5=7, Schedule=0×3.0=0, Labor_Inflation=8×1.5=12, Rework=2×1.5=3, Design=7×0.5=3.5; total=25.5 = MEDIUM RISK, 5-15% overrun probability); flag design complexity + labor inflation + site unknowns as the drivers even though total score is only medium; recommend 20% project contingency; conduct utilities survey immediately; lock labor rates
+
+SCENARIO C: Renovation/retrofit project (€500K budget, 12-week timeline)
+- Status: Week 8, 45% complete
+- Facts: On schedule; 1 defect found in MEP (mechanical/electrical/plumbing) rough-in (5 items reworked); no scope changes; all materials on hand
+- Questions: Are we on track financially? Any risks to monitor?
+- Agent response should: Risk score low (Scope=0×3.5=0, Schedule=0×3.0=0, Labor_Inflation=2×1.5=3, Rework=4×1.5=6, Design=1×0.5=0.5; total=9.5 = LOW RISK); recommend continue as-is; maintain daily QC inspections to prevent further rework
+
+6. KEY DEFINITIONS & GLOSSARY
+- Critical Path: Sequence of tasks that determines project completion date; any delay here delays project end
+- Contingency: Budget reserve (typically 5-15% of project cost) held for unknowns
+- Change Order: Formal document requesting scope change + impact on cost/schedule
+- Rework: Redoing work that failed quality checks or was incorrect
+- First-Pass Quality: Percentage of work completed correctly on first attempt (target >97%)
+- Scope Creep: Uncontrolled additions to project scope; often happens when changes not tracked formally
+- Resource Leveling: Balancing workload so no person/team is overallocated
+- Contingency Burn Rate: How quickly contingency budget is consumed (early burn = risk indicator)
